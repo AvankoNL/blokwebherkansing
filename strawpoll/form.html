@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Create a Poll</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="styles/style.css" rel="stylesheet">
+</head>
+
+
+<body class="form">
+    <header>
+        <nav>
+            <ul>
+                <li><img src="images/logostrawpoll.png" alt="strawpoll logo"></li>
+                <li><a href="index.html">StrawPoll</a></li>
+                <li>
+                    <button class="dropdown">
+                            Menu
+                        </button>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <form>
+            <h1>Create a Poll</h1>
+
+            <fieldset>
+                <label for="polltitle">Title</label>
+                <input type="text" id="polltitle" name="polltitle" placeholder="Type your question here...">
+                <label for="polldescription">Description (optional)</label>
+                <input type="text" id="polldescription" name="polldescription" placeholder="Enter an introduction text...">
+                <label>Answer Options</label>
+                <input type="text" id="option1" name="option1" placeholder="Choose an answer...">
+                <input type="text" id="option2" name="option2" placeholder="Choose an answer...">
+                <input type="text" id="option3" name="option3" placeholder="Choose an answer...">
+            </fieldset>
+
+            <fieldset>
+
+                <div>
+                    <input type="checkbox" id="private" name="private">
+                    <label for="private">Private (only via direct link)</label>
+                </div>
+
+                <div>
+                    <input type="checkbox" id="multiplechoice" name="multiplechoice">
+                    <label for="multiplechoice">Allow multiple choices</label>
+                </div>
+
+                <input type="submit" value="Create Poll">
+                <button>Advanced Settings</button>
+            </fieldset>
+
+        </form>
+
+    </main>
+
+    <footer>
+
+
+        <div>
+            <section>
+                <h3>Strawpoll</h3>
+                <ul>
+                    <li><a href="index.html">Discover</a></li>
+                    <li><a href="index.html">Embed</a></li>
+                    <li><a href="index.html">Topics</a></li>
+                    <li><a href="index.html">API</a></li>
+                </ul>
+            </section>
+
+            <section>
+                <h3>Help and Support</h3>
+                <ul>
+                    <li><a href="index.html">First Steps</a></li>
+                    <li><a href="index.html">FAQs</a></li>
+                    <li><a href="index.html">How-To</a></li>
+                </ul>
+            </section>
+
+            <section>
+                <h3>Services</h3>
+                <ul>
+                    <li><a href="index.html">Poll Maker</a></li>
+                    <li><a href="index.html">Meeting Scheduler</a></li>
+                </ul>
+            </section>
+        </div>
+
+    </footer>
+
+
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>

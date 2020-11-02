@@ -1,0 +1,77 @@
+<DOCTYPE html>
+<html>
+    <head>
+        <title>Create a Poll</title>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <link href="styles/style.css" rel="stylesheet">
+    </head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><img src="images/logostrawpoll.png" alt="strawpoll logo"></li>
+                <li><a href="index.html">StrawPoll</a></li>
+                <li>
+                    <button class="dropdown">
+                        Menu
+                    </button>
+                </li>
+            </ul>
+            <ul>
+                <li>Home</li>
+                <li>Create Poll</li>
+                <li>Schedule Meeting</li>
+                <li>Discover</li>
+                <li><button>Log in</button></li>
+                <li><button>Sign up</button></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <section class="topsection">
+            <h1 class="createpolltitle">
+             Create Poll
+            </h1>
+
+<form>
+    <article class="polltext">
+    <label for="title">Title</label>
+    <input type="text" id="title" name="title" value ="Type your question here...">
+
+    <label for="description">Description</label>
+    <input type="text" id="description" name="description" value="Enter an introduction text...">
+
+    <label for="answeroptions">Answer Options</label>
+    <input type="text" id="answeroptions" name="answeroptions" value="Choose an answer...">
+    <input type="text" id="answeroptions" name="answeroptions" value="Choose an answer...">
+    <input type="text" id="answeroptions" name="answeroptions" value="Choose an answer...">
+    </article>
+
+    <article class="pollcheckbox">
+    <label for="checkprivate">Private</label>
+    <input type="checkbox" id="checkprivate" name="checkprivate" value="Private">
+
+    <label for="checkchoice">Allow multiple choices</label>
+    <input type="checkbox" id="checkchoice" name="checkchoice" value="Allow multiple choices">
+
+    <label for="checkip">Allow multiple votes from one IP</label>
+    <input type="checkbox" id="checkip" name="checkip" value="Allow multiple votes from one ip">
+    </article>
+
+</form>
+
+<button>
+    Create Poll
+</button>
+<button id="advancedoptions">
+    Advanced Options
+</button>
+    </section>
+    
+<script src="js/script.js"></script>
+</body>
+</html>
+

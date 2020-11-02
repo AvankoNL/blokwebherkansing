@@ -1,0 +1,471 @@
+/*Veel titels en knoppen zijn in het midden gecentreerd. Daarom text-align center.*/
+
+body {
+    font-family: nunito, sans-serif;
+    background-color: #eff0eb;
+    text-align: center;
+}
+
+/*Styling van de navigatie in de header.*/
+
+header {
+    display: flex;
+    position: relative;
+    min-height: 1.75em;
+    background-color: #ffffff;
+    font-size: 2em;
+    font-family: nunito, sans-serif;
+    font-weight: 700;
+    margin-bottom: 1em;
+}
+
+header ul {
+    margin: 0;
+    padding: 0;
+}
+
+/*Plaatje van statistiek naast de titel geplaatst*/
+
+header li {
+    display: inline;
+}
+
+
+/*Plaatje van laptop uitgelijnd*/
+
+header img {
+    display: inline-block;
+    max-width: 1em;
+    margin-top: 0.3em;
+    margin-left: 0.5em;
+}
+
+nav {
+    box-shadow: 0px 10px 13px -7px rgba(10, 10, 10, .1), 0px 5px 0px 5px rgba(0, 0, 0, 0);
+    width: 100%;
+    text-align: left;
+}
+
+nav ul:first-of-type li button {
+    position: absolute;
+    font-size: 0.7em;
+    color: white;
+    background-color: #3298dc;
+    border: none;
+    border-radius: 6px;
+    margin-bottom: 0.5em;
+    width: 4em;
+    right: 15px;
+    top: 8px;
+
+}
+
+nav ul:nth-of-type(2) li {
+    display: block;
+    font-size: 0.8em;
+    text-align: left;
+    padding: 1em 0em 0em 1em;
+
+}
+
+nav button {
+    font-size: 1em;
+    padding: 0.3em 0em;
+    margin: 0em 0em 0em 0;
+    width: 13.5em;
+}
+
+nav ul:nth-of-type(2) {
+    opacity: 0%;
+    position: absolute;
+    margin-bottom: 0.5em;
+}
+
+nav ul:nth-of-type(2).showMenu {
+    opacity: 100%;
+    position: relative;
+}
+
+nav ul:nth-of-type(2) li:nth-of-type(5) button {
+    background-color: #f5f5f5;
+    color: black;
+    border: none;
+    border-radius: 6px;
+    width: 85vw;
+}
+
+nav ul:nth-of-type(2) li:nth-of-type(6) button {
+    background-color: #3298dc;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    width: 85vw;
+}
+
+
+
+section:first-of-type p:first-of-type {
+    font-size: 1.2em;
+    padding: 0 0 10 0em;
+    text-align: center;
+    margin-top: 2em;
+    margin-left: 0.2em;
+}
+
+
+section:first-of-type p:nth-of-type(2) {
+    font-size: 1.2em;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.1em;
+    margin: 0.7em 0em -0.7em 1.2em;
+    letter-spacing: -2px;
+    max-width: 70vw;
+    line-height: 1em;
+
+}
+
+
+h2 {
+    font-size: 2em;
+    margin-top: 1em;
+}
+
+h3 {
+    font-size: 1.6em;
+    padding-top: 1em;
+    text-align: left;
+    padding-left: 0.6em;
+}
+
+p {
+    font-size: 1.1em;
+    color: #4a4a4a;
+    text-align: left;
+    padding: 0em 1em 0em 1em;
+    max-width: 80vw;
+}
+
+img {
+    border-radius: 50%;
+    max-height: 10em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body section {
+
+    width: 90vw;
+    max-width: 90vh;
+    border-radius: 6px;
+    margin: auto;
+    margin-top: 2em;
+
+}
+
+section:nth-of-type(2) article:first-of-type {
+    background-color: #ffffff;
+    border-radius: 6px;
+    box-shadow: 0 0.5em 1em -0.125em rgba(10, 10, 10, .1), 0 0 0 1px rgba(10, 10, 10, .02);
+    color: white;
+
+}
+
+section:nth-of-type(2) article:first-of-type h3 {
+    text-align: center;
+    margin: 0.5em 0em 0.5em 0em;
+}
+
+section:nth-of-type(2) article:first-of-type p {
+    text-align: center;
+    color: white;
+    padding-bottom: 1em;
+    margin-left: 0.5em;
+}
+
+section:nth-of-type(2) article:first-of-type img {
+    border-radius: 0%;
+    max-height: 5em;
+    padding-top: 3em;
+    margin: auto;
+
+}
+
+section:nth-of-type(2) article:nth-of-type(2) {
+    background-color: #ffffff;
+    border-radius: 6px;
+    box-shadow: 0 0.5em 1em -0.125em rgba(10, 10, 10, .1), 0 0 0 1px rgba(10, 10, 10, .02);
+
+}
+
+section:nth-of-type(2) article:nth-of-type(2) p {
+    text-align: center;
+    color: white;
+    padding-bottom: 1em;
+    margin-left: 0.5em;
+}
+
+section:nth-of-type(2) article:nth-of-type(2) h3 {
+    color: white;
+    text-align: center;
+    margin: 0.5em 0em 0em 0em;
+}
+
+section:nth-of-type(2) article:nth-of-type(2) img {
+    border-radius: 0%;
+    max-height: 5em;
+    padding-top: 3em;
+    margin: auto;
+
+}
+
+section:nth-of-type(2) article:nth-of-type(3) {
+    background-color: #ffffff;
+    border-radius: 6px;
+    box-shadow: 0 0.5em 1em -0.125em rgba(10, 10, 10, .1), 0 0 0 1px rgba(10, 10, 10, .02);
+}
+
+section:nth-of-type(2) article:nth-of-type(3) p {
+    text-align: center;
+    color: white;
+    padding-bottom: 1em;
+    margin-left: 0.5em;
+}
+
+section:nth-of-type(2) article:nth-of-type(3) h3 {
+    text-align: center;
+    color: white;
+    margin: 0.5em 0em 0em 0em;
+}
+
+section:nth-of-type(2) article:nth-of-type(3) img {
+    border-radius: 0%;
+    max-height: 5em;
+    padding-top: 3em;
+    margin: auto;
+
+}
+
+section:nth-of-type(2) article:first-of-type div {
+    background-color: rgb(62, 185, 145);
+    border-radius: 50% 50% 6px 6px;
+}
+
+section:nth-of-type(2) article:nth-of-type(2) div {
+    background-color: rgb(255, 187, 51);
+    border-radius: 50% 50% 6px 6px;
+}
+
+section:nth-of-type(2) article:nth-of-type(3) div {
+    background-color: rgb(170, 102, 204);
+    border-radius: 50% 50% 6px 6px;
+}
+
+.main article {
+    background-color: #ffffff;
+    border-radius: 6px;
+    box-shadow: 0 0.5em 1em -0.125em rgba(10, 10, 10, .1), 0 0 0 1px rgba(10, 10, 10, .02);
+
+}
+
+article {
+    width: 90vw;
+    max-width: 90vh;
+}
+
+article p {
+    text-align: left;
+    padding-bottom: 1em;
+}
+
+
+/*Oranje rand moest alleen maar te zien zijn bij de bovenste section. Daarom heb ik die in een class veranderd.*/
+
+main section:first-of-type {
+    border-top: 3px solid orange;
+    background-color: white;
+}
+
+.dropdown {
+    border: 1px solid black;
+}
+
+article button {
+    display: inline-block;
+    font-family: nunito, sans-serif;
+    font-size: 1.3em;
+    color: #ffffff;
+    background-color: #3eb991;
+    padding: 0.8em 1.5em;
+    margin-bottom: 1.5em;
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+    width: 80vw;
+    max-width: 25em;
+}
+
+main section a {
+    display: inline-block;
+    font-family: nunito, sans-serif;
+    font-size: 1.3em;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #3eb991;
+    padding: 0.8em 1.5em;
+    margin-bottom: 1.5em;
+    border-radius: 4px;
+    border: none;
+    width: 80vw;
+    max-width: 10em;
+}
+
+/*Als je met de muis over de button heen hovert verandert hij lichtelijk van kleur.*/
+
+main a:hover {
+    background-color: #3baf8a;
+
+}
+
+/*Streepje onder link verwijderd.*/
+
+a {
+    text-decoration: none;
+}
+
+nav ul li a:visited {
+    color: black;
+}
+
+
+article ul {
+    margin-left: 2em;
+}
+
+article ul li {
+    text-align: left;
+    font-size: 1.1em;
+}
+
+form {
+    background-color: white;
+    width: 90vw;
+    max-width: 60em;
+    margin: auto;
+    border-radius: 6px;
+    border-top: 3px solid orange;
+
+}
+
+fieldset {
+    border: none;
+}
+
+label {
+    display: block;
+    width: 90%;
+    margin: 2em 5% 0% 5%;
+    text-align: left;
+    font-weight: 700;
+    font-size: 1.1em;
+}
+
+
+input[type=text] {
+    width: 90%;
+    padding: 1em;
+    margin: 0.5em 0em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+}
+
+
+input[type=button],
+input[type=submit] {
+    display: inline-block;
+    font-family: nunito, sans-serif;
+    font-size: 1.1em;
+    color: #ffffff;
+    background-color: #3eb991;
+    padding: 0.5em 1em;
+    margin-bottom: 0.5em;
+    border: none;
+    border-radius: 4px;
+    width: 70vw;
+    max-width: 25em;
+}
+
+form fieldset:nth-of-type(2) {
+    display: inline;
+}
+
+.form main div {
+    display: flex;
+    align-items: baseline;
+    position: relative;
+    text-align: left;
+    margin-left: 1.2em
+}
+
+div:nth-of-type(2) {
+    margin: 0em 0em 1.5em 1.2em;
+}
+
+
+::placeholder {
+    text-align: left;
+    font-weight: lighter;
+    color: rgb(204, 204, 204);
+}
+
+form fieldset:nth-of-type(2) button {
+    display: inline-block;
+    font-family: nunito, sans-serif;
+    font-size: 1.1em;
+    color: #ffffff;
+    background-color: #cacaca;
+    padding: 0.5em 1em;
+    margin-bottom: 0.5em;
+    border: none;
+    border-radius: 4px;
+    width: 70vw;
+    max-width: 25em;
+}
+
+footer {
+    background-color: #343a40;
+    color: #adb5bd;
+}
+
+footer h3 {
+    margin-left: 0.9em;
+}
+
+footer ul {
+    list-style-type: none;
+    text-align: left;
+    padding-bottom: 1em;
+}
+
+footer a {
+    color: #adb5bd;
+}
+
+@media (min-width:740px) {
+
+    footer div {
+        max-width: 80em;
+        display: flex;
+    }
+
+    .main section:nth-of-type(2) article {
+        max-width: 90vh;
+    }
+
+
+}
